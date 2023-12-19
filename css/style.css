@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+header,main,footer{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 120px;
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+footer{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+
+body{
+    background-color: #380577;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+    box-shadow: 0 0 20px black; 
+    border-radius: 5%;
+}
+
+#panorama{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; 
+    box-shadow: 0 0 10px black; 
+}
+
+.services__img{
+    width: 240px;
+    box-shadow: 0 0 10px black; 
+    border-radius: 5%;
+}
+
+.services__item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;  
+}
+
+.services{
+    padding: 35px;
+    border-radius: 5px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.h1--invisible{
+    visibility: hidden;
+}
+
+.foto{
+width: 600px;
+margin: auto;
+text-align: center;
+}
+
+.foto1{
+    box-shadow: 0 0 20px black; 
+    width: 600px; 
+    border-radius: 5%;
+}
+
+.text{
+    text-align: left;
+    width: 630px;
+}
+
+.contacts{
+    text-align: center; 
+    margin: auto;
+    width: 400px;
+    font-size: 40px;
+}
+
+.p1{
+    margin: auto;
+    font-weight: bold;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.clients{
+    height: 200px;
+}
+.clients__list{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+
+.clients__img{
+    width: 300px;
+    padding-top: 42px;
+}
+
+.clients__item{
+    transition: .3s all;
+    opacity: .6;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.clients__item:hover{
+    opacity: 1;
+    padding-top: 0;
+    cursor: pointer;
+}
+
+.clients__h1{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+#background{
+    width: 100%;
+    height: 400px;
+    background: url(../img/1614454956_3-p-zadnii-fon-temnii-3.jpg) no-repeat center 22%;
+    box-shadow: 0 0 50px black;
+}
+
+#logo{
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 30px;
+    float: left;
+}
+
+.pink{
+    color: rgb(209, 2, 174);
+}
+
+.red{
+    color: red;
+}
+
+.red:hover{
+    text-decoration: underline;
+}
+
+
+.footer__block{
+    display: inline-block;
+    width: 335px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.footer__block :hover {
+    text-decoration: underline;
+}
+
+.footer__block:nth-child(2) {
+    text-align: center;
+    }
+
+.footer__icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+
+.footer__img{
+    width: 60px;
+    margin-left: 10px;
+}
+
+h1{
+   font-size: 25px;
+   font-weight: bold;
+   text-transform: uppercase;
+   font-family: 'Oswald', 'Verdana', 'Arial',
+'Helvetica', sans-serif;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Oswald', 'Verdana', 'Arial',
+'Helvetica', sans-serif;
+ }
+
+
+ #mainnav ul {
+     list-style: none;
+     margin: 0;
+     padding-left: 0;
+ }
+
+ #mainnav li{
+     display: inline;
+ }
+
+ #mainnav a{
+     text-decoration: none;
+     color: white;
+     padding-right: 60px;
+ }
+
+ #mainnav{
+     font-size: 25px;
+     text-transform: uppercase;
+     text-align: center;
+     padding-top: 40px;
+ }
+
+#mainnav a:hover{
+    text-decoration: underline;
+}
+
+#mainnav li.active a{
+    font-weight: bold;
+}
+
+.new::after{
+    content:"new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: violet;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+table{
+    border-top: 5px solid #f60ad5;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+td, th {
+    border-top: 2px solid white;
+    padding: 10px;
+}
+
+.border__color{
+    border-bottom: 5px solid #f60ad5;
+}
+
+.price th:first-child{
+    width: 10%;
+}
+
+.price th:nth-child(2), .price th:last-child{
+    width: 25%
+}
+
+.price td:first-child, .price td:last-child, .price td:nth-child(2){
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background-color: rgb(123, 41, 190);
+}
+
+.caption{
+    text-align: left;
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+
+#contact-form input[type="text"], [type="email"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form select{
+    height: 35px;
+    width: 262px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #eddfff;
+    border: white solid 1px;
+}
+
+#contact-form textarea{
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #eddfff;
+    border: white solid 1px;
+}
+
+#contact-form input[type="submit"]{
+    height: 30px;
+    width: 140px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(176, 123, 207);
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(109, 0, 143);
+    margin-top: 2px;
+}
+
+#contact-form input[type="submit"]:hover{
+    height: 30px;
+    width: 140px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #eddfff;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(109, 0, 143);
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+#contact-form input[type="reset"]{
+    height: 30px;
+    width: 160px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(249, 0, 166);
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(109, 0, 143);
+    margin-top: 5px;
+}
+
+#contact-form input[type="reset"]:hover{
+    height: 30px;
+    width: 160px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #eddfff;
+    font-size: 16px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(109, 0, 143);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.forma{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.forma:hover{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
